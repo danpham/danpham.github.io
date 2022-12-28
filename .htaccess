@@ -1,0 +1,4 @@
+# redirection 301 sans les www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.danpham.com [NC]
+RewriteRule (.*) https://www.danpham.com/$1 [QSA,R=301,L]
