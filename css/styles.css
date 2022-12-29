@@ -124,3 +124,18 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+
+/* Theme: White-grey */
+
+main {
+	background: #EDEDED;
+	color: #4B5658;
+}
+
+.icons-social a {
+	color: #4B5658;
+}
+
+.icons-social a svg path {
+	fill: #4B5658;
+}
