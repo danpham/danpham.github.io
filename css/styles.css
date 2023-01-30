@@ -132,10 +132,13 @@ main {
 	color: #4B5658;
 }
 
-.icons-social a {
-	color: #4B5658;
+svg {
+	margin: 0.5em;
+	width: 3em;
+	height: 3em;
+	fill: #4B5658;
 }
 
-.icons-social a svg path {
-	fill: #4B5658;
+svg:hover {
+	fill: #000;
 }
