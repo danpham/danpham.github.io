@@ -52,14 +52,6 @@ h2 {
 	padding: 0;
 }
 
-@font-face {
-	font-family: 'Reem Kufi';
-	font-style: normal;
-	font-weight: 400;
-	src: url('../webfonts/ReemKufi-latin.woff2') format('woff2');
-	font-display: swap;
-}
-
 *,
 *:before,
 *:after {
