@@ -1,5 +1,5 @@
 AddDefaultCharset utf-8
 RewriteEngine On
-RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
 RewriteCond %{HTTP_HOST} !^www.danpham.com [NC]
 RewriteRule (.*) https://www.danpham.com/$1 [QSA,R=301,L]
