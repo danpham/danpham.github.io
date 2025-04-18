@@ -1,4 +1,8 @@
 AddDefaultCharset utf-8
+
+# Empêche l'indexation automatique des répertoires (renvoie une erreur 403 s'il n'y a pas de fichier index)
+Options -Indexes
+
 RewriteEngine On
 RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
 RewriteCond %{HTTP_HOST} !^www.danpham.com [NC]
